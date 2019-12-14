@@ -7,11 +7,13 @@ function App({ commands }) {
       <header className="App-header">
         <p>App Header</p>
       </header>
-      <ul>
-        {commands.map((command, i) => (
-          <li key={i}>{command.name}</li>
+      <div className="Main">
+        {commands.map((commandGroup, i) => (
+          <div>
+            <p key={i}>{commandGroup.section}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

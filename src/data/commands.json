@@ -1,6 +1,6 @@
 [
   {
-    "name": "1st section",
+    "section": "Command Line",
     "commands": [
       {
         "code": "code goes here",
@@ -9,15 +9,15 @@
     ]
   },
   {
-    "name": "2nd section",
+    "section": "Git",
     "commands": [
       {
-        "code2": "code2 goes here",
-        "description2": "description2 goes here"
+        "code": "code2 goes here",
+        "description": "description2 goes here"
       },
       {
-        "code2-2": "code2-2 goes here",
-        "description2-2": "description2-2 goes here"
+        "code": "code2-2 goes here",
+        "description": "description2-2 goes here"
       }
     ]
   }
