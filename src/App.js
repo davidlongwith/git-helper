@@ -10,7 +10,12 @@ function App({ commands }) {
       <div className="Main">
         {commands.map((commandGroup, i) => (
           <div>
-            <p key={i}>{commandGroup.section}</p>
+            <h1 key={i}>{commandGroup.section}</h1>
+            <ul>
+              {commandGroup.commands.map((command, i) => (
+                <li key={i}>{command.code}</li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
