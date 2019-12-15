@@ -89,5 +89,23 @@
         "description": "allow longer path names (Windows)"
       }
     ]
+  },
+  {
+    "name": "Git Status",
+    "commands": [
+      {
+        "code": "git status",
+        "description": "show git repository status"
+      }
+    ]
+  },
+  {
+    "name": "Git Init",
+    "commands": [
+      {
+        "code": "git init",
+        "description": "initialize a git repository in current directory (adds .git hidden folder meta data)"
+      }
+    ]
   }
 ]
