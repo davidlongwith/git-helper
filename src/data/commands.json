@@ -16,7 +16,7 @@
       },
       {
         "code": "cd my-project/",
-        "description": "go to the my-project directory"
+        "description": "change directories to the my-project directory"
       },
       {
         "code": "cd \"/c/Program Files/\"",
@@ -44,12 +44,49 @@
     "name": "Git",
     "commands": [
       {
-        "code": "code2 goes here",
-        "description": "description2 goes here"
+        "code": "git --version",
+        "description": "check git version"
       },
       {
-        "code": "code2-2 goes here",
-        "description": "description2-2 goes here"
+        "code": "git [command] --help",
+        "description": "opens detailed help file in browser"
+      }
+    ]
+  },
+  {
+    "name": "Git Config",
+    "commands": [
+      {
+        "code": "git config --list",
+        "description": "list configuration settings"
+      },
+      {
+        "code": "git config --user.name \"Dave\"",
+        "description": "set Git username (single repository)"
+      },
+      {
+        "code": "git config --global",
+        "description": "option to affect this and all future commits (but not past commits)"
+      },
+      {
+        "code": "git config --global user.name",
+        "description": "show global user name"
+      },
+      {
+        "code": "git config --global user.name \"David Longwith\"",
+        "description": "set Git username for all future commits"
+      },
+      {
+        "code": "git config --global user.email none@none.com",
+        "description": "set global email"
+      },
+      {
+        "code": "git config color.ui auto",
+        "description": "add color to diff results for readability"
+      },
+      {
+        "code": "git config --system core.longpaths true",
+        "description": "allow longer path names (Windows)"
       }
     ]
   }
