@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import CommandGroup from "./CommandGroup.js";
+import CommandGroup from "./components/CommandGroup.js";
 
 function App({ commandData }) {
   return (
