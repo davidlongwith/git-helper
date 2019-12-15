@@ -3,8 +3,40 @@
     "name": "Command Line",
     "commands": [
       {
-        "code": "code goes here",
-        "description": "description goes here"
+        "code": "pwd",
+        "description": "print working directory - shows what directory you are in"
+      },
+      {
+        "code": "ls",
+        "description": "list the files in this directory"
+      },
+      {
+        "code": "ls -a",
+        "description": "list files and show hidden files/folders"
+      },
+      {
+        "code": "cd my-project/",
+        "description": "go to the my-project directory"
+      },
+      {
+        "code": "cd \"/c/Program Files/\"",
+        "description": "use double quotes on entire path for names with spaces"
+      },
+      {
+        "code": "cd ../",
+        "description": "navigate up one level"
+      },
+      {
+        "code": "cd ~",
+        "description": "change directories to your home directory"
+      },
+      {
+        "code": "q",
+        "description": "quit/end and return to prompt"
+      },
+      {
+        "code": "ctrl + c",
+        "description": "close active server process"
       }
     ]
   },
