@@ -1,14 +1,12 @@
 import React from "react";
+import Command from "./Command.js";
 
 const CommandGroup = ({ name, commands }) => (
   <section id={name.toLowerCase().replace(/ /g, "-")} className="command-group">
     <h1>{name}</h1>
     <div>
       {commands.map((command, i) => (
-        <div key={i}>
-          <code>{command.code}</code>
-          <p>{command.description}</p>
-        </div>
+        <Command key={i} {...command} />
       ))}
     </div>
   </section>
