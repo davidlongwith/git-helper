@@ -9,8 +9,12 @@ function App({ commands }) {
       </header>
       <div className="Main">
         {commands.map((commandGroup, i) => (
-          <div>
-            <h1 key={i}>{commandGroup.section}</h1>
+          <section
+            id={commandGroup.section.toLowerCase().replace(/ /g, "-")}
+            className="command-group"
+            key={i}
+          >
+            <h1>{commandGroup.section}</h1>
             <div>
               {commandGroup.commands.map((command, i) => (
                 <div key={i}>
@@ -19,7 +23,7 @@ function App({ commands }) {
                 </div>
               ))}
             </div>
-          </div>
+          </section>
         ))}
       </div>
     </div>
