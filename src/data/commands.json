@@ -173,7 +173,7 @@
     ]
   },
   {
-    "name": "Git Rm",
+    "name": "Git RM",
     "commands": [
       {
         "code": "git rm [file]",
@@ -264,6 +264,71 @@
       {
         "code": "git merge --abort",
         "description": "restore files to their state before starting the merge"
+      }
+    ]
+  },
+  {
+    "name": "Git Remote",
+    "commands": [
+      {
+        "code": "git remote",
+        "description": "show all remotes"
+      },
+      {
+        "code": "git remote -v",
+        "description": "verbose, show more information (url's for push/pull)"
+      },
+      {
+        "code": "git remote add [name] [url]",
+        "description": "add repository on GitHub as a remote (standard to use \"origin\" as name when using single remote)"
+      },
+      {
+        "code": "git remote rm [remote]",
+        "description": "remove specified remote"
+      }
+    ]
+  },
+  {
+    "name": "Git Push",
+    "commands": [
+      {
+        "code": "git push",
+        "description": "uploads all local branch commits to GitHub"
+      },
+      {
+        "code": "git push [remote] [branch]",
+        "description": "\"git push origin master\" sends the master branch to the remote named origin on GitHub"
+      },
+      {
+        "code": "git push -u [remote] [branch]",
+        "description": "set upstream tracking reference (links local and remote allowing argument-less commands such as git pull)"
+      }
+    ]
+  },
+  {
+    "name": "Git Pull",
+    "commands": [
+      {
+        "code": "git [remote] [branch]",
+        "description": "download the specified branch to local repository (Github > Local)"
+      }
+    ]
+  },
+  {
+    "name": "Git Fetch",
+    "commands": [
+      {
+        "code": "git fetch [remote]",
+        "description": "downloads all history from remote tracking branches"
+      }
+    ]
+  },
+  {
+    "name": "Git GC",
+    "commands": [
+      {
+        "code": "git gc",
+        "description": "manually run garbage collection process"
       }
     ]
   }
