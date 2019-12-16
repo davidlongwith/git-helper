@@ -100,11 +100,170 @@
     ]
   },
   {
+    "name": "Git Log",
+    "commands": [
+      {
+        "code": "git log",
+        "description": "list all commits for current directory (press \"q\" to quit)"
+      },
+      {
+        "code": "git log --stat",
+        "description": "gives statistics about which files have changed (\"q\" to quit)"
+      },
+      {
+        "code": "git log --graph [branch]",
+        "description": "visual representation of the commit history for specified branch(s)"
+      },
+      {
+        "code": "git log --oneline",
+        "description": "make things easier to read all on one line"
+      },
+      {
+        "code": "git log -n [quantity]",
+        "description": "show specified number of commits"
+      }
+    ]
+  },
+  {
     "name": "Git Init",
     "commands": [
       {
         "code": "git init",
         "description": "initialize a git repository in current directory (adds .git hidden folder meta data)"
+      }
+    ]
+  },
+  {
+    "name": "Git Clone",
+    "commands": [
+      {
+        "code": "git clone [url]",
+        "description": "move an entire repository from one computer to another"
+      }
+    ]
+  },
+  {
+    "name": "Git Add",
+    "commands": [
+      {
+        "code": "git add [file]",
+        "description": "add file to track with next commit (relative to current directory, adds to staging area)"
+      },
+      {
+        "code": "git add .",
+        "description": "add everything to staging area"
+      }
+    ]
+  },
+  {
+    "name": "Git Diff",
+    "commands": [
+      {
+        "code": "git diff",
+        "description": "show changes in working directory compared to staging area"
+      },
+      {
+        "code": "git diff --staged",
+        "description": "compare staging area to repository commit"
+      },
+      {
+        "code": "git diff [id] [id]",
+        "description": "compare two commits by id (can use first 4 characters instead of whole thing)"
+      }
+    ]
+  },
+  {
+    "name": "Git Rm",
+    "commands": [
+      {
+        "code": "git rm [file]",
+        "description": "removes the file from working directory and stages deletion"
+      }
+    ]
+  },
+  {
+    "name": "Git Commit",
+    "commands": [
+      {
+        "code": "git commit",
+        "description": "commit to repository (opens default text editor for message/details input)"
+      },
+      {
+        "code": "git commit -m \"Commit Message\"",
+        "description": "commit to repository with message from the command line"
+      }
+    ]
+  },
+  {
+    "name": "Git Show",
+    "commands": [
+      {
+        "code": "git show [commit id]",
+        "description": "show changes introduced to a commit (without knowing what the parent is)"
+      }
+    ]
+  },
+  {
+    "name": "Git Reset",
+    "commands": [
+      {
+        "code": "git reset",
+        "description": "move file in commit staging area back to working directory (undo a git add)"
+      },
+      {
+        "code": "git reset --hard",
+        "description": "discards any changes in both the working directory and staging area"
+      },
+      {
+        "code": "git reset --hard [commit_id]",
+        "description": "reset head back to desired commit, discarding all commits after this one"
+      }
+    ]
+  },
+  {
+    "name": "Git Checkout",
+    "commands": [
+      {
+        "code": "git checkout [commit id]",
+        "description": "switch to another commit in current branch"
+      },
+      {
+        "code": "git checkout [branch]",
+        "description": "switch to most recent commit on specified branch \"git checkout master\""
+      },
+      {
+        "code": "git checkout -b [new_branch_name]",
+        "description": "shortcut command for creating and switching to a new branch with checkout"
+      }
+    ]
+  },
+  {
+    "name": "Git Branch",
+    "commands": [
+      {
+        "code": "git branch",
+        "description": "list branches and star selected (use checkout to switch)"
+      },
+      {
+        "code": "git branch [myNewBranch]",
+        "description": "create a new branch"
+      },
+      {
+        "code": "git branch -d [branch name]",
+        "description": "delete branch label (make sure commits are reachable by another branch label first)"
+      }
+    ]
+  },
+  {
+    "name": "Git Merge",
+    "commands": [
+      {
+        "code": "git merge [branch(s)]",
+        "description": "create a new commit merging selected branches (currently checked out branch is always included)"
+      },
+      {
+        "code": "git merge --abort",
+        "description": "restore files to their state before starting the merge"
       }
     ]
   }
