@@ -37,12 +37,12 @@
   text-shadow: 0px -1px 0px rgba(255, 255, 255, 0.75);
 }
 
-.command code {
+.command-code {
   border: inset rgb(238, 238, 238); /* rgb(238, 238, 238) */
   padding: 0 0.5em;
 }
 
-.command p {
+.command-descrip p {
   margin-bottom: 1.5em;
   margin-top: 0.25em;
 }
@@ -59,7 +59,7 @@
     margin-bottom: 0.75em;
     text-align: left;
   }
-  .command p {
+  .command-descrip p {
     margin: 0 0 0 1em;
   }
 }
