@@ -1,7 +1,7 @@
 import React from "react";
 
 const Command = ({ code, description }) => (
-  <div>
+  <div className="command">
     <code>{code}</code>
     <p>{description}</p>
   </div>

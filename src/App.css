@@ -1,14 +1,14 @@
 .app {
-  background: rgb(224, 210, 210);
+  background: rgb(224, 210, 210); /*rgb(224, 210, 210) */
 }
 
 .app-header {
-  background-color: #282c34;
+  background-color: #282c34; /* #282c34 */
   text-align: center;
 }
 
 .app-header h1 {
-  color: rgb(224, 210, 210);
+  color: rgb(224, 210, 210); /* rgb(224, 210, 210) */
   padding: 0.3rem 0;
 }
 
@@ -19,16 +19,38 @@
 }
 
 .command-group {
-  background-color: rgb(236, 226, 226);
-  border: outset rgb(238, 238, 238);
+  background-color: rgb(236, 226, 226); /* rgb(236, 226, 226) */
+  border: outset rgb(238, 238, 238); /* rgb(238, 238, 238) */
+  border-width: 3px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   margin-bottom: 2em;
   padding: 1em;
   width: 95%;
 }
 
-@media (min-width: 800px) {
+.command code {
+  border: inset rgb(238, 238, 238); /* rgb(238, 238, 238) */
+  padding: 0 0.5em;
+}
+
+.command p {
+  margin-bottom: 1.5em;
+  margin-top: 0.25em;
+}
+
+@media (min-width: 960px) {
   .command-group {
-    max-width: 55em;
+    max-width: 75em;
     width: 75%;
+  }
+  .command {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 0.75em;
+    text-align: left;
+  }
+  .command p {
+    margin: 0 0 0 1em;
   }
 }
