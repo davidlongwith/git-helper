@@ -20,7 +20,7 @@
 
 .command-group {
   background-color: rgb(236, 226, 226);
-  border: 1px solid #000;
+  border: outset rgb(238, 238, 238);
   margin-bottom: 2em;
   padding: 1em;
   width: 95%;
