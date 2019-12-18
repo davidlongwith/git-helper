@@ -9,15 +9,9 @@
 }
 
 .app-header h1 {
-  display: inline-block;
-  background: radial-gradient(
-      circle farthest-corner at center center,
-      white,
-      #111
-    )
-    no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(224, 210, 210);
+  padding: 0.3em 0;
+  text-shadow: -1px -1px 1px rgb(122, 122, 122);
 }
 
 .commands {
