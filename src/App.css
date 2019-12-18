@@ -4,12 +4,20 @@
 
 .app-header {
   background-color: #282c34; /* #282c34 */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   text-align: center;
 }
 
 .app-header h1 {
-  color: rgb(224, 210, 210); /* rgb(224, 210, 210) */
-  padding: 0.3rem 0;
+  display: inline-block;
+  background: radial-gradient(
+      circle farthest-corner at center center,
+      white,
+      #111
+    )
+    no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .commands {
@@ -22,7 +30,7 @@
   background-color: rgb(236, 226, 226); /* rgb(236, 226, 226) */
   border: outset rgb(238, 238, 238); /* rgb(238, 238, 238) */
   border-width: 3px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); /* rgba(0, 0, 0, 0.4) */
   margin-bottom: 2em;
   padding: 1em;
   width: 95%;
