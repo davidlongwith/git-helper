@@ -1,11 +1,15 @@
-.App {
+.app {
   background: rgb(224, 210, 210);
 }
 
-.App-header {
+.app-header {
   background-color: #282c34;
-  color: #fff;
   text-align: center;
+}
+
+.app-header h1 {
+  color: rgb(224, 210, 210);
+  padding: 0.3rem 0;
 }
 
 .commands {
