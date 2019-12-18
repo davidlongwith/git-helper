@@ -10,6 +10,7 @@
 
 .app-header h1 {
   color: rgb(224, 210, 210);
+  margin-top: 0;
   padding: 0.3em 0;
   text-shadow: -1px -1px 1px rgb(122, 122, 122);
 }
@@ -28,6 +29,12 @@
   margin-bottom: 2em;
   padding: 1em;
   width: 95%;
+}
+
+.command-group h2 {
+  color: #333;
+  margin-top: 8px;
+  text-shadow: 0px -1px 0px rgba(255, 255, 255, 0.75);
 }
 
 .command code {
