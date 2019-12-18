@@ -8,6 +8,23 @@
   text-align: center;
 }
 
+.commands {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .command-group {
   background-color: rgb(236, 226, 226);
+  border: 1px solid #000;
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 95%;
+}
+
+@media (min-width: 800px) {
+  .command-group {
+    max-width: 55em;
+    width: 75%;
+  }
 }
