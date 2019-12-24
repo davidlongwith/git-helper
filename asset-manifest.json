@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/git-helper/static/css/main.0521676a.chunk.css",
-    "main.js": "/git-helper/static/js/main.dcf0fbbc.chunk.js",
-    "main.js.map": "/git-helper/static/js/main.dcf0fbbc.chunk.js.map",
+    "main.js": "/git-helper/static/js/main.8e2fd8c8.chunk.js",
+    "main.js.map": "/git-helper/static/js/main.8e2fd8c8.chunk.js.map",
     "runtime-main.js": "/git-helper/static/js/runtime-main.692549c8.js",
     "runtime-main.js.map": "/git-helper/static/js/runtime-main.692549c8.js.map",
     "static/js/2.a7ea4794.chunk.js": "/git-helper/static/js/2.a7ea4794.chunk.js",
     "static/js/2.a7ea4794.chunk.js.map": "/git-helper/static/js/2.a7ea4794.chunk.js.map",
     "index.html": "/git-helper/index.html",
-    "precache-manifest.dc8aeafbe72cdf3fb7e7f371016bc2ce.js": "/git-helper/precache-manifest.dc8aeafbe72cdf3fb7e7f371016bc2ce.js",
+    "precache-manifest.449aa425bbbbf3235508f1cd36e516a4.js": "/git-helper/precache-manifest.449aa425bbbbf3235508f1cd36e516a4.js",
     "service-worker.js": "/git-helper/service-worker.js",
     "static/css/main.0521676a.chunk.css.map": "/git-helper/static/css/main.0521676a.chunk.css.map",
     "static/js/2.a7ea4794.chunk.js.LICENSE": "/git-helper/static/js/2.a7ea4794.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.692549c8.js",
     "static/js/2.a7ea4794.chunk.js",
     "static/css/main.0521676a.chunk.css",
-    "static/js/main.dcf0fbbc.chunk.js"
+    "static/js/main.8e2fd8c8.chunk.js"
   ]
 }
