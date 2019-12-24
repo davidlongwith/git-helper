@@ -2,6 +2,8 @@
 
 A quick reference app for commonly used Git commands.
 
+Installable on both desktop and mobile, this progressive web application features native app functionality, lightning fast load times, and even works offline!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
