@@ -33,7 +33,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run deploy`
 
-Generate a production build and deploy it to GitHub Pages.
+Generate a production build, push to gh-pages branch on GitHub, and publish online with GitHub Pages.
 
 ### `npm run eject`
 
