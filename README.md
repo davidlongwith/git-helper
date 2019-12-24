@@ -4,6 +4,12 @@ A quick reference app for commonly used Git commands.
 
 Installable on both desktop and mobile, this progressive web application features native app functionality, lightning fast load times, and even works offline!
 
+Workflow:
+
+1. Commit local changes
+2. Push to GitHub
+3. Push new build to GitHub Pages branch with script "npm run deploy"
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
