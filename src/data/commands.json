@@ -48,12 +48,12 @@
         "description": "check git version"
       },
       {
-        "code": "git [command] --help",
-        "description": "opens detailed help file in browser"
-      },
-      {
         "code": "git status",
         "description": "show git repository status"
+      },
+      {
+        "code": "git [command] --help",
+        "description": "opens detailed help file in browser"
       }
     ]
   },
