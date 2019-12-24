@@ -50,6 +50,10 @@
       {
         "code": "git [command] --help",
         "description": "opens detailed help file in browser"
+      },
+      {
+        "code": "git status",
+        "description": "show git repository status"
       }
     ]
   },
@@ -87,15 +91,6 @@
       {
         "code": "git config --system core.longpaths true",
         "description": "allow longer path names (Windows)"
-      }
-    ]
-  },
-  {
-    "name": "Git Status",
-    "commands": [
-      {
-        "code": "git status",
-        "description": "show git repository status"
       }
     ]
   },
