@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import CommandLinks from "./components/CommandLinks.js";
+import QuickLinks from "./components/QuickLinks.js";
 import CommandGroup from "./components/CommandGroup.js";
 
 // The commandData prop contains the entire data array from commands.json
@@ -11,15 +11,19 @@ function App({ commandData }) {
         <h1>Git Helper</h1>
       </header>
 
+      {/*
+        Iterate through each object in the commandData array assigning each command group's
+        section name as a prop for the QuickLinks component.
+       */}
       <div className="quick-links">
-        {commandData.map((commandLinks, i) => (
-          <CommandLinks key={i} {...commandLinks} />
+        {commandData.map((commandGroup, i) => (
+          <QuickLinks key={i} sectionName={commandGroup.name} />
         ))}
       </div>
 
       {/*
         Iterate through each object in the commandData array for use in the
-        CommandGroup component.  For each iteration, the properties of the object
+        CommandGroup component.  For each iteration, all properties of the object
         are added as props using the JSX spread operator.
        */}
       <div className="commands">
