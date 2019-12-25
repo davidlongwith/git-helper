@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import CommandLinks from "./components/CommandLinks.js";
 import CommandGroup from "./components/CommandGroup.js";
 
 // The commandData prop contains the entire data array from commands.json
@@ -10,7 +11,11 @@ function App({ commandData }) {
         <h1>Git Helper</h1>
       </header>
 
-      <div className="jump-links"></div>
+      <div className="quick-links">
+        {commandData.map((commandLinks, i) => (
+          <CommandLinks key={i} {...commandLinks} />
+        ))}
+      </div>
 
       {/*
         Iterate through each object in the commandData array for use in the
