@@ -15,6 +15,36 @@
   text-shadow: -1px -1px 1px rgb(122, 122, 122);
 }
 
+#quick-links-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.quick-links-div {
+  border: 1px solid red;
+}
+
+.quick-link {
+  background-color: green;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.quick-link:hover {
+  background-color: #555;
+}
+
+.quick-link:active {
+  background-color: black;
+}
+
+.quick-link:visited {
+  background-color: #ccc;
+}
+
 .commands {
   align-items: center;
   display: flex;

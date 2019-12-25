@@ -15,7 +15,7 @@ function App({ commandData }) {
         Iterate through each object in the commandData array assigning each command group's
         section name as a prop for the QuickLinks component.
        */}
-      <div className="quick-links">
+      <div id="quick-links-container">
         {commandData.map((commandGroup, i) => (
           <QuickLinks key={i} sectionName={commandGroup.name} />
         ))}

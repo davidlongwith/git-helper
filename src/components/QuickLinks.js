@@ -2,8 +2,11 @@ import React from "react";
 
 // convert sectionName prop to id format for jump link
 const QuickLinks = ({ sectionName }) => (
-  <div>
-    <a href={`#${sectionName.toLowerCase().replace(/ /g, "-")}`}>
+  <div className="quick-links-div">
+    <a
+      className="quick-link"
+      href={`#${sectionName.toLowerCase().replace(/ /g, "-")}`}
+    >
       {sectionName}
     </a>
   </div>
