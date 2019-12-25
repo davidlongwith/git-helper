@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import CommandGroup from "./components/CommandGroup.js";
 
-// The "commandData" prop contains the data array from commands.json
+// The commandData prop contains the entire data array from commands.json
 function App({ commandData }) {
   return (
     <div className="app">
@@ -14,7 +14,7 @@ function App({ commandData }) {
 
       {/*
         Iterate through each object in the commandData array for use in the
-        CommandGroup component.  For each iteration, the properties of that object
+        CommandGroup component.  For each iteration, the properties of the object
         are added as props using the JSX spread operator.
        */}
       <div className="commands">
