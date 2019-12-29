@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./QuickLinks.css";
 import QuickLinks from "./components/QuickLinks.js";
 import CommandGroup from "./components/CommandGroup.js";
 
@@ -12,14 +13,16 @@ function App({ commandData }) {
       </header>
 
       {/*
-        Iterate through each object in the commandData array assigning each command group's
-        section name as a prop for the QuickLinks component.
+        Iterate through each object in the commandData array assigning each 
+        command group's name as a prop for the QuickLinks component.
        */}
-      <div id="quick-links-container">
-        {commandData.map((commandGroup, i) => (
-          <QuickLinks key={i} sectionName={commandGroup.name} />
-        ))}
-      </div>
+      <nav id="quick-link-navigation">
+        <ul>
+          {commandData.map((commandGroup, i) => (
+            <QuickLinks key={i} sectionName={commandGroup.name} />
+          ))}
+        </ul>
+      </nav>
 
       {/*
         Iterate through each object in the commandData array for use in the

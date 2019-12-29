@@ -1,0 +1,16 @@
+#quick-link-navigation {
+  border: 1px solid red;
+}
+
+#quick-link-navigation ul {
+  padding: 0;
+  width: 100%;
+}
+
+#quick-link-navigation li {
+  display: inline;
+}
+
+.quick-link {
+  color: black;
+}
