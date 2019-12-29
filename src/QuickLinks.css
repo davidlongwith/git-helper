@@ -1,5 +1,6 @@
 #quick-link-navigation {
   border: 1px solid red;
+  text-align: center;
 }
 
 #quick-link-navigation ul {
@@ -12,5 +13,34 @@
 }
 
 .quick-link {
-  color: black;
+  border: 2px solid #000;
+  color: #000;
+  display: inline-block;
+  line-height: 2;
+  margin-bottom: 1em;
+  margin-right: 1.5%;
+  padding-left: 1em;
+  padding-right: 1em;
+  outline: none;
+  text-decoration: none;
+}
+
+#quick-link-navigation li:last-child .quick-link {
+  margin-right: 0;
+}
+
+.quick-link:link,
+.quick-link:visited,
+.quick-link:focus {
+  background: rgb(109, 109, 109);
+  background: rgba(109, 109, 109, 0.5);
+}
+
+.quick-link:hover {
+  background: orange;
+}
+
+.quick-link:active {
+  background: red;
+  color: white;
 }
