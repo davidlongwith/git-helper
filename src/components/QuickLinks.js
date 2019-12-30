@@ -1,6 +1,6 @@
 import React from "react";
 
-// sectionName prop for jump link name,
+// sectionName prop used for jump link name,
 // and is formatted to match section id's for link destination
 const QuickLinks = ({ sectionName }) => (
   <li>
