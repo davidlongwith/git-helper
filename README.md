@@ -4,6 +4,8 @@ A quick reference app for commonly used Git commands.
 
 Installable on both desktop and mobile, this progressive web application features native app functionality, lightning fast load times, and even works offline!
 
+https://davidlongwith.github.io/git-helper/
+
 Workflow:
 
 1. Commit local changes
