@@ -1,3 +1,4 @@
+/* Universal box sizing with inheritance */
 html {
   box-sizing: border-box;
 }
@@ -5,6 +6,10 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
