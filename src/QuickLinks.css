@@ -1,5 +1,5 @@
 #quick-link-navigation {
-  border: 1px solid red;
+  padding-top: 1em;
   text-align: center;
 }
 
@@ -14,26 +14,25 @@
 
 .quick-link {
   border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* rgba(0, 0, 0, 0.4) */
   color: #000;
   display: inline-block;
+  font-weight: bold;
   line-height: 2;
   margin-bottom: 1em;
-  margin-right: 1.5%;
+  margin-left: 1.25%;
+  margin-right: 1.25%;
   padding-left: 1em;
   padding-right: 1em;
   outline: none;
   text-decoration: none;
 }
 
-#quick-link-navigation li:last-child .quick-link {
-  margin-right: 0;
-}
-
 .quick-link:link,
 .quick-link:visited,
 .quick-link:focus {
-  background: rgb(109, 109, 109);
-  background: rgba(109, 109, 109, 0.5);
+  background: rgb(128, 128, 128); /* rgb(128, 128, 128) */
 }
 
 .quick-link:hover {

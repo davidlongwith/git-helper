@@ -10,6 +10,7 @@
 
 .app-header h1 {
   color: rgb(224, 210, 210);
+  margin-bottom: 0;
   margin-top: 0;
   padding: 0.3em 0;
   text-shadow: -1px -1px 1px rgb(122, 122, 122);
