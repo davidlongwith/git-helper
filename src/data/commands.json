@@ -317,14 +317,5 @@
         "description": "downloads all history from remote tracking branches"
       }
     ]
-  },
-  {
-    "name": "Git GC",
-    "commands": [
-      {
-        "code": "git gc",
-        "description": "manually run garbage collection process"
-      }
-    ]
   }
 ]
