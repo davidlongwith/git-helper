@@ -13,7 +13,7 @@ function App({ commandsByGroupArray }) {
         <h1>Git Helper</h1>
       </header>
 
-      <QuickLinks commandGroups={commandsByGroupArray} />
+      <QuickLinks sections={commandsByGroupArray} />
 
       {/*
         Iterate through each object in the commandData array for use in the

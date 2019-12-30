@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-// sectionName prop is used for Quick Link name,
+// sectionName prop is used for the Quick Link name,
 // and is formatted to match section id's for link destination
 const QuickLink = ({ sectionName }) => (
   <li>
