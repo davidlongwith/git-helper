@@ -1,22 +1,22 @@
 import React from "react";
+import QuickLink from "./QuickLink.js";
 import PropTypes from "prop-types";
 
-// sectionName prop used for jump link name,
-// and is formatted to match section id's for link destination
-const QuickLinks = ({ sectionName }) => (
-  <li>
-    <a
-      className="quick-link"
-      href={`#${sectionName.toLowerCase().replace(/ /g, "-")}`}
-    >
-      {sectionName}
-    </a>
-  </li>
+// Iterate through each object in the commandGroups prop assigning the
+// command group's name as a prop for the QuickLink component.
+const QuickLinks = ({ commandGroups }) => (
+  <nav id="quick-link-navigation">
+    <ul>
+      {commandGroups.map((commandGroup, i) => (
+        <QuickLink key={i} sectionName={commandGroup.name} />
+      ))}
+    </ul>
+  </nav>
 );
 
 // Typechecking with PropTypes
 QuickLinks.propTypes = {
-  sectionName: PropTypes.string
+  commandGroups: PropTypes.array
 };
 
 export default QuickLinks;
