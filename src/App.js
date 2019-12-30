@@ -3,6 +3,7 @@ import "./App.css";
 import "./QuickLinks.css";
 import QuickLinks from "./components/QuickLinks.js";
 import CommandGroup from "./components/CommandGroup.js";
+import PropTypes from "prop-types";
 
 // The commandData prop contains the entire data array from commands.json
 function App({ commandData }) {
@@ -37,5 +38,10 @@ function App({ commandData }) {
     </div>
   );
 }
+
+// Typechecking with PropTypes
+App.propTypes = {
+  commandData: PropTypes.array
+};
 
 export default App;

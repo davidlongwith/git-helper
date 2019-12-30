@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // sectionName prop used for jump link name,
 // and is formatted to match section id's for link destination
@@ -12,5 +13,10 @@ const QuickLinks = ({ sectionName }) => (
     </a>
   </li>
 );
+
+// Typechecking with PropTypes
+QuickLinks.propTypes = {
+  sectionName: PropTypes.string
+};
 
 export default QuickLinks;

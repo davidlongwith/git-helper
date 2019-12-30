@@ -1,5 +1,6 @@
 import React from "react";
 import Command from "./Command.js";
+import PropTypes from "prop-types";
 
 // Each section of commands has a name/title and array of commands passed as props
 const CommandGroup = ({ name, commands }) => (
@@ -17,5 +18,11 @@ const CommandGroup = ({ name, commands }) => (
     </div>
   </section>
 );
+
+// Typechecking with PropTypes
+CommandGroup.propTypes = {
+  name: PropTypes.string,
+  commands: PropTypes.array
+};
 
 export default CommandGroup;

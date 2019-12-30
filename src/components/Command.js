@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // assemble a single command using Command component props
 const Command = ({ code, description }) => (
@@ -11,5 +12,11 @@ const Command = ({ code, description }) => (
     </div>
   </div>
 );
+
+// Typechecking with PropTypes
+Command.propTypes = {
+  code: PropTypes.string,
+  description: PropTypes.string
+};
 
 export default Command;
