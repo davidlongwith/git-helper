@@ -1,7 +1,7 @@
 import React from "react";
 
 const ButtonScrollTop = () => (
-  <div className="scroll-top-div">
+  <div className="scroll-top-button-div">
     <button className="scroll-top-button">
       <i className="i-arrow-up">
         <svg
