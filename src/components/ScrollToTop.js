@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 
-export default class ButtonScrollTop extends Component {
+// Button that scrolls to top of page.
+//
+// Code assist:
+// https://www.coderomeos.org/scroll-to-top-of-the-page-a-simple-react-component
+//
+export default class ScrollToTop extends Component {
   constructor(props) {
     super(props);
     this.state = {
