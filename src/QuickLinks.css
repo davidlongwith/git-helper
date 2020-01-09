@@ -36,10 +36,10 @@
 }
 
 .quick-link:hover {
-  background: orange;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .quick-link:active {
-  border: 2px solid #fff;
-  color: #fff;
+  background: #000;
 }
