@@ -288,7 +288,7 @@
     "commands": [
       {
         "code": "git push",
-        "description": "uploads all local branch commits to GitHub"
+        "description": "uploads all local branch commits to GitHub (Local > GitHub)"
       },
       {
         "code": "git push [remote] [branch]",
@@ -296,7 +296,7 @@
       },
       {
         "code": "git push -u [remote] [branch]",
-        "description": "set upstream tracking reference (links local and remote allowing argument-less commands such as git pull)"
+        "description": "option \"-u\" sets upstream tracking reference linking local and remote for argument-less commands"
       }
     ]
   },
@@ -304,8 +304,8 @@
     "name": "Git Pull",
     "commands": [
       {
-        "code": "git [remote] [branch]",
-        "description": "download the specified branch to local repository (Github > Local)"
+        "code": "git pull [remote] [branch]",
+        "description": "download the specified branch to local repository (GitHub > Local)"
       }
     ]
   },

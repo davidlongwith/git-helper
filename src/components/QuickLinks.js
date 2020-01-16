@@ -6,6 +6,7 @@ import PropTypes from "prop-types";
 // section's name as a prop for the QuickLink component.
 const QuickLinks = ({ sections }) => (
   <nav id="quick-link-navigation">
+    <h2 className="quicklinks-header">QuickLinks</h2>
     <ul>
       {sections.map((section, i) => (
         <QuickLink key={i} sectionName={section.name} />

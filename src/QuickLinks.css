@@ -3,6 +3,12 @@
   text-align: center;
 }
 
+.quicklinks-header {
+  font-family: cursive;
+  font-size: 1em;
+  margin-top: 0.25em;
+}
+
 #quick-link-navigation ul {
   padding: 0;
   width: 100%;
