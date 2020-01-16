@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/QuickLinks.css";
 import QuickLink from "./QuickLink.js";
 import PropTypes from "prop-types";
 

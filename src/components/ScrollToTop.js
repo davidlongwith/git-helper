@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../css/ScrollToTop.css";
 
 // Button that scrolls to top of page.
 //

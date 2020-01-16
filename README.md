@@ -6,11 +6,18 @@ Installable on both desktop and mobile, this progressive web application feature
 
 https://davidlongwith.github.io/git-helper/
 
+#### Developer Notes:
+
+Features modular stateless functional components with all command data stored in a single commands.json file.
+
 Workflow:
 
 1. Commit local changes
 2. Push to GitHub
 3. Publish new build to GitHub Pages branch with script "npm run deploy"
+
+Deploying a React App to GitHub Pages:
+https://github.com/gitname/react-gh-pages
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

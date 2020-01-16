@@ -1,7 +1,5 @@
 import React from "react";
-import "./App.css";
-import "./QuickLinks.css";
-import "./ScrollToTop.css";
+import "./css/App.css";
 import Header from "./components/Header.js";
 import QuickLinks from "./components/QuickLinks.js";
 import Commands from "./components/Commands.js";
