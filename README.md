@@ -8,7 +8,7 @@ https://davidlongwith.github.io/git-helper/
 
 #### Developer Notes:
 
-Features modular stateless functional components with all command data stored in a single commands.json file.
+This React application uses modular stateless functional components with all command data stored in a single commands.json file.
 
 Workflow:
 
